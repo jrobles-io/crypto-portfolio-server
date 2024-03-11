@@ -2,32 +2,78 @@
   "portfolios": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "title": "Blue Chip Portfolio",
+      "description": "AI tokens"
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "title": "DEFI Portfolio",
+      "description": "DEFI tokens"
+    },
+    {
+      "title": "Test",
+      "description": "New Portfolio",
+      "id": 3
+    },
+    {
+      "title": "Test2",
+      "description": "New Portfolio 2",
+      "id": 4
+    },
+    {
+      "title": "Sample 3",
+      "description": "Sample 3",
+      "id": 5
     }
   ],
-  "tokens": [
+  "coins": [
     {
       "id": 1,
       "portfolioId": 1,
-      "description": "Use Vite to create a basic React app"
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "amount": 1,
+      "price": 70000
     },
     {
       "id": 2,
       "portfolioId": 1,
-      "description": "Install React Router and setup routes"
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "amount": 1,
+      "price": 4000
     },
     {
       "id": 3,
+      "portfolioId": 1,
+      "symbol": "MATIC",
+      "name": "Polygon",
+      "amount": 100,
+      "price": 1.2
+    },
+    {
+      "id": 4,
+      "portfolioId": 1,
+      "symbol": "SOL",
+      "name": "Solana",
+      "amount": 2,
+      "price": 150
+    },
+    {
+      "id": 5,
       "portfolioId": 2,
-      "description": "Create a form with 5 input fields"
+      "symbol": "RAY",
+      "name": "Raydium",
+      "amount": 1000,
+      "price": 1.4
+    },
+    {
+      "id": 6,
+      "portfolioId": 2,
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "amount": 700,
+      "price": 14.7
     }
   ]
 }
